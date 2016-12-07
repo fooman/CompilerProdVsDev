@@ -1,0 +1,16 @@
+{
+  "name": "fooman/compiler-prod-vs-dev-m2",
+  "description": "",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "autoload": {
+    "psr-4": {
+      "Fooman\\CompilerProdVsDev\\": "src/"
+    },
+    "files": [
+      "src/registration.php"
+    ]
+  },
+  "prefer-stable": true
+}
+
